@@ -25,13 +25,13 @@ setup(
     description='A Django blog app implemented in Wagtail.',
     long_description=codecs.open(os.path.join(os.path.dirname(__file__), 'README.rst'), encoding='utf-8').read(),
     install_requires=[
-        'Django>=3.2,<4.3',
-        'wagtail>=4.0,<5.1',
+        'Django>=3.2,<5.1',
+        'wagtail>=4.0,<6.2',
         'django-el-pagination==4.0.0',
         'django-social-share>=1.3.0',
         'django-colorful>=1.3',
-        'django-taggit>=3.1.0,<4.1',
-        'wagtail-markdown==0.11.0'
+        'django-taggit>=3.1.0,<5.1',
+        'wagtail-markdown<0.13'
     ],
     url='http://github.com/APSL/puput',
     author=get_metadata('puput', 'author'),
