@@ -8,7 +8,7 @@ from django.conf import settings
 
 from wagtail.contrib.routable_page.models import RoutablePageMixin, route
 from wagtail.models import Page
-from wagtail.contrib.search_promotions import Query
+from wagtail.contrib.search_promotions.models import Query
 
 from .utils import get_object_or_None
 
